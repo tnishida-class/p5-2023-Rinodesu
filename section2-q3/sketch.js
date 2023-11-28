@@ -10,9 +10,9 @@ function setup() {
   stroke(255);
   strokeWeight(3);
 
-  const cx = width / 2; // 中心は (cx, cy)
-  const cy = height / 2;
-  const maxR = min(width, height); // 大きさは幅と高さのうち小さい方
+    const cx = width / 2; // 中心は (cx, cy)
+    const cy = height / 2;
+    const maxR = min(width, height); // 大きさは幅と高さのうち小さい方
 
   drawCircle(black, maxR);
   drawArcs(green, red, maxR * 0.8);
